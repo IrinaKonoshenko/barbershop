@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+    <head>
+        {{> head/head }}
+    </head>
+
+    <body class="body">
+        %=symbols=%
+
+        <div class="flex flex-col h-screen">
+            <!-- begin::header -->
+            {{> header/header }}
+            <!-- end::header -->
+
+            <!-- begin::page-content -->
+            <!-- begin::hero -->
+            {{> hero/hero }}
+            <!-- end::hero -->
+            <!-- begin::history -->
+            {{> history/history }}
+            <!-- end::history -->
+            <!-- begin::services -->
+            {{> services/services }}
+            <!-- end::services -->
+            <!-- begin::gallery -->
+            {{> gallery/gallery }}
+            <!-- end::gallery -->
+            <!-- begin::end-content -->
+
+            <div class="flex-shrink-0">
+                <!-- begin::footer -->
+                {{> footer/footer }}
+                <!-- end::footer -->
+            </div>
+        </div>
+
+        <!-- begin::scripts -->
+        {{> assets/script }}
+        <!-- end::scripts -->
+    </body>
+</html>
