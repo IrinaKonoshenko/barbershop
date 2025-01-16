@@ -1,3 +1,5 @@
+https://irinakonoshenko.github.io/barbershop/builds/build_ver-Tue_Jan_09_2024_04_12_49/
+
 <p align="right">
 English description | <a href="README_RU.md">Описание на русском</a>
 </p>
